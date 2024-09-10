@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Background colours -->
+        <item name="android:colorBackground">#101010</item>
+
+    </style>
+    <!-- Custom dialog style -->
+    <style name="transparentDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">#CC000000</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.1</item> <!-- Adjust dim amount as needed -->
+    </style>
+</resources>
